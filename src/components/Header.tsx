@@ -19,7 +19,7 @@ const Header = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex items-center space-x-2">
-            <div className="bg-gradient-to-r from-blue-600 to-blue-800 p-2 rounded-lg">
+            <div className="bg-gradient-to-r from-orange-500 to-orange-600 p-2 rounded-lg">
               <Icon name="Car" size={28} className="text-white" />
             </div>
             <span className="text-2xl font-bold text-gray-900 font-montserrat">
@@ -33,7 +33,7 @@ const Header = () => {
               <a
                 key={item.name}
                 href={item.href}
-                className="text-gray-600 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200"
+                className="text-gray-600 hover:text-orange-500 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200"
               >
                 {item.name}
               </a>
@@ -42,7 +42,7 @@ const Header = () => {
 
           {/* CTA Button */}
           <div className="hidden md:block">
-            <Button className="bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white font-semibold px-6 py-2 rounded-lg shadow-lg transition-all duration-200 transform hover:scale-105">
+            <Button className="bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white font-semibold px-6 py-2 rounded-lg shadow-lg transition-all duration-200 transform hover:scale-105">
               <Icon name="Phone" size={16} className="mr-2" />
               +7 (999) 123-45-67
             </Button>
@@ -67,13 +67,13 @@ const Header = () => {
                 <a
                   key={item.name}
                   href={item.href}
-                  className="text-gray-600 hover:text-blue-600 block px-3 py-2 rounded-md text-base font-medium"
+                  className="text-gray-600 hover:text-orange-500 block px-3 py-2 rounded-md text-base font-medium"
                 >
                   {item.name}
                 </a>
               ))}
               <div className="pt-2">
-                <Button className="w-full bg-blue-600 hover:bg-blue-700 text-white">
+                <Button className="w-full bg-orange-500 hover:bg-orange-600 text-white">
                   <Icon name="Phone" size={16} className="mr-2" />
                   +7 (999) 123-45-67
                 </Button>

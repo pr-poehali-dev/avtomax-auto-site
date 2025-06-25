@@ -83,7 +83,11 @@ const BookingForm = () => {
         <Card className="shadow-xl">
           <CardHeader>
             <CardTitle className="flex items-center text-2xl">
-              <Icon name="Calendar" size={28} className="mr-3 text-blue-600" />
+              <Icon
+                name="Calendar"
+                size={28}
+                className="mr-3 text-orange-500"
+              />
               Форма записи
             </CardTitle>
           </CardHeader>
@@ -129,7 +133,7 @@ const BookingForm = () => {
               {/* Car Information */}
               <div className="border-t pt-6">
                 <h3 className="text-lg font-semibold mb-4 flex items-center">
-                  <Icon name="Car" size={20} className="mr-2 text-blue-600" />
+                  <Icon name="Car" size={20} className="mr-2 text-orange-500" />
                   Информация об автомобиле
                 </h3>
                 <div className="grid md:grid-cols-3 gap-4">
@@ -180,7 +184,7 @@ const BookingForm = () => {
                   <Icon
                     name="Settings"
                     size={20}
-                    className="mr-2 text-blue-600"
+                    className="mr-2 text-orange-500"
                   />
                   Услуга и время
                 </h3>
@@ -277,7 +281,7 @@ const BookingForm = () => {
               <Button
                 type="submit"
                 size="lg"
-                className="w-full bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white font-semibold py-4 rounded-xl shadow-lg transition-all duration-200 transform hover:scale-105"
+                className="w-full bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white font-semibold py-4 rounded-xl shadow-lg transition-all duration-200 transform hover:scale-105"
               >
                 <Icon name="Send" size={20} className="mr-2" />
                 Отправить заявку

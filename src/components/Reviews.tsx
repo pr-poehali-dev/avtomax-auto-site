@@ -76,26 +76,26 @@ const Reviews = () => {
         {/* Stats */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-16">
           <div className="text-center">
-            <div className="text-3xl md:text-4xl font-bold text-blue-600 mb-2">
+            <div className="text-3xl md:text-4xl font-bold text-orange-500 mb-2">
               4.9
             </div>
             <div className="flex justify-center mb-2">{renderStars(5)}</div>
             <div className="text-gray-600">Средняя оценка</div>
           </div>
           <div className="text-center">
-            <div className="text-3xl md:text-4xl font-bold text-blue-600 mb-2">
+            <div className="text-3xl md:text-4xl font-bold text-orange-500 mb-2">
               1000+
             </div>
             <div className="text-gray-600">Довольных клиентов</div>
           </div>
           <div className="text-center">
-            <div className="text-3xl md:text-4xl font-bold text-blue-600 mb-2">
+            <div className="text-3xl md:text-4xl font-bold text-orange-500 mb-2">
               5
             </div>
             <div className="text-gray-600">Лет опыта</div>
           </div>
           <div className="text-center">
-            <div className="text-3xl md:text-4xl font-bold text-blue-600 mb-2">
+            <div className="text-3xl md:text-4xl font-bold text-orange-500 mb-2">
               98%
             </div>
             <div className="text-gray-600">Рекомендуют нас</div>
@@ -121,7 +121,7 @@ const Reviews = () => {
                 </div>
 
                 <div className="mb-4">
-                  <span className="inline-block bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded-full">
+                  <span className="inline-block bg-orange-100 text-orange-700 text-xs px-2 py-1 rounded-full">
                     {review.service}
                   </span>
                 </div>
@@ -155,7 +155,7 @@ const Reviews = () => {
                 href="https://yandex.ru/maps"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center px-6 py-3 bg-yellow-500 hover:bg-yellow-600 text-white font-semibold rounded-lg transition-colors"
+                className="inline-flex items-center justify-center px-6 py-3 bg-orange-500 hover:bg-orange-600 text-white font-semibold rounded-lg transition-colors"
               >
                 <Icon name="Star" size={20} className="mr-2" />
                 Яндекс.Карты

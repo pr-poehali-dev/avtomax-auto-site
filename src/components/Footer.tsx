@@ -8,7 +8,7 @@ const Footer = () => {
           {/* Company Info */}
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
-              <div className="bg-gradient-to-r from-blue-600 to-blue-800 p-2 rounded-lg">
+              <div className="bg-gradient-to-r from-orange-500 to-orange-600 p-2 rounded-lg">
                 <Icon name="Car" size={28} className="text-white" />
               </div>
               <span className="text-2xl font-bold font-montserrat">
@@ -22,19 +22,19 @@ const Footer = () => {
             <div className="flex space-x-4">
               <a
                 href="#"
-                className="bg-blue-600 hover:bg-blue-700 p-2 rounded-lg transition-colors"
+                className="bg-orange-500 hover:bg-orange-600 p-2 rounded-lg transition-colors"
               >
                 <Icon name="MessageCircle" size={20} />
               </a>
               <a
                 href="#"
-                className="bg-blue-600 hover:bg-blue-700 p-2 rounded-lg transition-colors"
+                className="bg-orange-500 hover:bg-orange-600 p-2 rounded-lg transition-colors"
               >
                 <Icon name="Phone" size={20} />
               </a>
               <a
                 href="#"
-                className="bg-blue-600 hover:bg-blue-700 p-2 rounded-lg transition-colors"
+                className="bg-orange-500 hover:bg-orange-600 p-2 rounded-lg transition-colors"
               >
                 <Icon name="Mail" size={20} />
               </a>
@@ -83,23 +83,23 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4">Контакты</h3>
             <div className="space-y-3 text-gray-300">
               <div className="flex items-center">
-                <Icon name="Phone" size={16} className="mr-2 text-blue-400" />
+                <Icon name="Phone" size={16} className="mr-2 text-orange-400" />
                 <span>+7 (999) 123-45-67</span>
               </div>
               <div className="flex items-center">
-                <Icon name="Mail" size={16} className="mr-2 text-blue-400" />
+                <Icon name="Mail" size={16} className="mr-2 text-orange-400" />
                 <span>info@automax.ru</span>
               </div>
               <div className="flex items-start">
                 <Icon
                   name="MapPin"
                   size={16}
-                  className="mr-2 text-blue-400 mt-1"
+                  className="mr-2 text-orange-400 mt-1"
                 />
                 <span>г. Москва, ул. Автомобильная, 15</span>
               </div>
               <div className="flex items-center">
-                <Icon name="Clock" size={16} className="mr-2 text-blue-400" />
+                <Icon name="Clock" size={16} className="mr-2 text-orange-400" />
                 <span>
                   Пн-Пт: 9:00-19:00
                   <br />

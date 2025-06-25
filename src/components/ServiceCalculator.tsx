@@ -119,7 +119,7 @@ const ServiceCalculator = () => {
                   <Icon
                     name="Settings"
                     size={24}
-                    className="mr-2 text-blue-600"
+                    className="mr-2 text-orange-500"
                   />
                   Выберите услуги
                 </CardTitle>
@@ -208,7 +208,7 @@ const ServiceCalculator = () => {
                   <Icon
                     name="Calculator"
                     size={24}
-                    className="mr-2 text-blue-600"
+                    className="mr-2 text-orange-500"
                   />
                   Итого к оплате
                 </CardTitle>
@@ -237,12 +237,12 @@ const ServiceCalculator = () => {
                       <hr />
                       <div className="flex justify-between items-center text-lg font-bold">
                         <span>Итого:</span>
-                        <span className="text-blue-600">
+                        <span className="text-orange-500">
                           {total.toLocaleString()} ₽
                         </span>
                       </div>
                       <Button
-                        className="w-full bg-blue-600 hover:bg-blue-700"
+                        className="w-full bg-orange-500 hover:bg-orange-600"
                         size="lg"
                       >
                         <Icon name="Calendar" size={20} className="mr-2" />

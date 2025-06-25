@@ -93,7 +93,7 @@ const Services = () => {
             >
               <CardHeader>
                 <div className="flex items-center justify-between mb-4">
-                  <div className="bg-gradient-to-br from-blue-500 to-blue-600 p-3 rounded-xl group-hover:from-blue-600 group-hover:to-blue-700 transition-all duration-300">
+                  <div className="bg-gradient-to-br from-orange-500 to-orange-600 p-3 rounded-xl group-hover:from-orange-600 group-hover:to-orange-700 transition-all duration-300">
                     <Icon
                       name={service.icon as any}
                       size={28}
@@ -101,12 +101,12 @@ const Services = () => {
                     />
                   </div>
                   <div className="text-right">
-                    <span className="text-2xl font-bold text-blue-600">
+                    <span className="text-2xl font-bold text-orange-500">
                       {service.price}
                     </span>
                   </div>
                 </div>
-                <CardTitle className="text-xl font-bold text-gray-900 group-hover:text-blue-600 transition-colors">
+                <CardTitle className="text-xl font-bold text-gray-900 group-hover:text-orange-500 transition-colors">
                   {service.title}
                 </CardTitle>
               </CardHeader>
@@ -127,7 +127,7 @@ const Services = () => {
                     </li>
                   ))}
                 </ul>
-                <Button className="w-full bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white font-semibold rounded-lg transition-all duration-200">
+                <Button className="w-full bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white font-semibold rounded-lg transition-all duration-200">
                   Записаться
                 </Button>
               </CardContent>
@@ -136,11 +136,11 @@ const Services = () => {
         </div>
 
         {/* Additional Info */}
-        <div className="mt-16 bg-gradient-to-r from-blue-50 to-blue-100 rounded-2xl p-8">
+        <div className="mt-16 bg-gradient-to-r from-orange-50 to-orange-100 rounded-2xl p-8">
           <div className="grid md:grid-cols-3 gap-8 text-center">
             <div>
               <div className="bg-white rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center shadow-lg">
-                <Icon name="Award" size={32} className="text-blue-600" />
+                <Icon name="Award" size={32} className="text-orange-500" />
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-2">
                 Гарантия качества
@@ -151,7 +151,7 @@ const Services = () => {
             </div>
             <div>
               <div className="bg-white rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center shadow-lg">
-                <Icon name="Clock" size={32} className="text-blue-600" />
+                <Icon name="Clock" size={32} className="text-orange-500" />
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-2">
                 Быстрое обслуживание
@@ -162,7 +162,7 @@ const Services = () => {
             </div>
             <div>
               <div className="bg-white rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center shadow-lg">
-                <Icon name="Users" size={32} className="text-blue-600" />
+                <Icon name="Users" size={32} className="text-orange-500" />
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-2">
                 Опытные мастера

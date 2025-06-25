@@ -10,11 +10,11 @@ const Hero = () => {
   };
 
   return (
-    <section className="relative bg-gradient-to-br from-blue-600 via-blue-700 to-blue-900 text-white overflow-hidden">
+    <section className="relative bg-gradient-to-br from-orange-500 via-orange-600 to-orange-700 text-white overflow-hidden">
       {/* Background decorative elements */}
       <div className="absolute inset-0 bg-black opacity-20"></div>
-      <div className="absolute -top-40 -right-40 w-80 h-80 bg-blue-400 rounded-full opacity-10"></div>
-      <div className="absolute -bottom-20 -left-20 w-60 h-60 bg-blue-300 rounded-full opacity-10"></div>
+      <div className="absolute -top-40 -right-40 w-80 h-80 bg-orange-300 rounded-full opacity-20"></div>
+      <div className="absolute -bottom-20 -left-20 w-60 h-60 bg-orange-400 rounded-full opacity-20"></div>
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 lg:py-32">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -23,11 +23,11 @@ const Hero = () => {
             <div className="space-y-4">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-montserrat leading-tight">
                 Профессиональный
-                <span className="block text-transparent bg-clip-text bg-gradient-to-r from-blue-200 to-white">
+                <span className="block text-transparent bg-clip-text bg-gradient-to-r from-orange-100 to-white">
                   автосервис
                 </span>
               </h1>
-              <p className="text-xl md:text-2xl text-blue-100 font-light">
+              <p className="text-xl md:text-2xl text-orange-100 font-light">
                 Качественное обслуживание вашего автомобиля с гарантией и
                 современным оборудованием
               </p>
@@ -53,7 +53,7 @@ const Hero = () => {
             <div className="flex flex-col sm:flex-row gap-4">
               <Button
                 size="lg"
-                className="bg-white text-blue-700 hover:bg-blue-50 font-semibold px-8 py-4 rounded-xl shadow-xl transition-all duration-200 transform hover:scale-105"
+                className="bg-white text-orange-600 hover:bg-orange-50 font-semibold px-8 py-4 rounded-xl shadow-xl transition-all duration-200 transform hover:scale-105"
                 onClick={() => scrollToSection("booking")}
               >
                 <Icon name="Calendar" size={20} className="mr-2" />
@@ -62,7 +62,7 @@ const Hero = () => {
               <Button
                 size="lg"
                 variant="outline"
-                className="border-white text-white hover:bg-white hover:text-blue-700 font-semibold px-8 py-4 rounded-xl shadow-xl transition-all duration-200 transform hover:scale-105"
+                className="border-white text-white hover:bg-white hover:text-orange-600 font-semibold px-8 py-4 rounded-xl shadow-xl transition-all duration-200 transform hover:scale-105"
                 onClick={() => scrollToSection("calculator")}
               >
                 <Icon name="Calculator" size={20} className="mr-2" />
@@ -74,7 +74,7 @@ const Hero = () => {
           {/* Image/Illustration */}
           <div className="relative">
             <div className="bg-white bg-opacity-10 rounded-2xl p-8 backdrop-blur-sm">
-              <div className="bg-gradient-to-br from-blue-400 to-blue-600 rounded-xl p-12 text-center">
+              <div className="bg-gradient-to-br from-orange-400 to-orange-600 rounded-xl p-12 text-center">
                 <Icon
                   name="Car"
                   size={120}
@@ -83,7 +83,7 @@ const Hero = () => {
                 <h3 className="text-2xl font-bold text-white mb-2">
                   Современное оборудование
                 </h3>
-                <p className="text-blue-100">
+                <p className="text-orange-100">
                   Используем только профессиональные инструменты
                 </p>
               </div>
